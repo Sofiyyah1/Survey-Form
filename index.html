@@ -2,14 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>survey-form</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1>Hello World</h1>
-
-
+    <div class="container">
+      <header class="header">
+        <h1>Survey Form</h1>
+        <p>
+          Thank you for taking the time to help us improve the platform
+        </p>
+      </header>
+      <form id="form">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name" required/>
+        </div>
+        <div class="">
+          <label id="email-label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control"
+ placeholder="Enter your Email" required/></div>
+        <div class="">
+          <label id="number-label" for="number"
+          >Age<span class="clue">(optional)</span></label>
+          <input type="number" name="age" id="number" min="10"max="99" placeholder="Age"/>
+        </div>
+        
+    
+        
+    
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
